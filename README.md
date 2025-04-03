@@ -9,19 +9,9 @@ Replication from paper: (Re-)Imag(in)ing Price Trends, Journal of Finance
 - [Dataset](#dataset)
 - [Requirement](#requirement)
 
-## Background
-
-Why do we use CNN? From a machine learning perspective that applies to find price trend pattern, there is two prevailing concerns (from paper (Re-)Imag(in)ing Price Trends):
-- We want a method that is flexible in order to find potentially complex predictive patterns.
-- We also want a method that is interpretable (means that it should be constrained enough).
-
-That is why this set of repo tries to replicate the following:
-1. Represent historical prices as an image: mainly use for CNN, also help the model to focus on relational attributes.
-2. Model the predictive association between images and future returns using CNN: image smoothing, feature extraction automation.
-
 ## Dataset
 
-Current dataset that applies for this repo: U.S. stock returns from 1993 to 2019, and the CNN model is trained to predict the direction (up or down) of future stock returns.
+Current dataset that applies for this repo: meme coins from 2010 until October 2024.
 
 ## Requirement
 Image Width: 
